@@ -106,6 +106,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer-form {
@@ -159,6 +160,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    border: none;
     background-color: #4d5ae5;
     transition: 250ms ease-out;
     transition-property: background-color;
