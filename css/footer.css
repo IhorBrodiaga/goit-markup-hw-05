@@ -43,7 +43,7 @@
     color: #f4f4fd;
 }
 
-
+/* Footer social */
 
 .footer-social-title {
     font-family: "Roboto", sans-serif;
@@ -91,4 +91,84 @@
 
 .footer-social-icon {
     color: #f4f4fd;
+}
+
+/* Footer form */
+
+.container-form {
+    margin-left: auto;
+}
+
+.container-form-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-form-label {}
+
+.footer-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: 250ms ease-out;
+    transition-property: border-color;
+}
+
+.footer-form-input:focus {
+    border-color: #31d0aa;
+}
+
+.footer-form-input::placeholder {
+    color: #fff;
+}
+
+.footer-form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    max-width: 165px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    transition: 250ms ease-out;
+    transition-property: background-color;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: #31d0aa;
+}
+
+.footer-form-icon {
+    color: #fff;
 }
