@@ -5,7 +5,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -80,6 +79,7 @@
 .modal-form-field {
     margin-bottom: 8px;
 }
+
 .modal-form-field:has(.modal-form-comment) {
     margin-bottom: 16px;
 }
@@ -112,7 +112,8 @@
     transition: 250ms ease-out;
     transition-property: border-color;
 }
-.modal-form-input:focus{
+
+.modal-form-input:focus {
     border-color: #4d5ae5;
 }
 
@@ -125,9 +126,11 @@
     transition: 250ms ease-out;
     transition-property: color;
 }
-.modal-form-input:focus + .modal-form-icon{
+
+.modal-form-input:focus+.modal-form-icon {
     color: #4d5ae5;
 }
+
 .modal-form-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -143,10 +146,12 @@
     transition: 250ms ease-out;
     transition-property: border-color;
 }
+
 .modal-form-comment::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
-.modal-form-comment:focus{
+
+.modal-form-comment:focus {
     border-color: #4d5ae5;
 }
 
@@ -154,13 +159,12 @@
     margin-bottom: 24px;
 }
 
-
 .modal-form-policy {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: #8e8f99;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 
 .modal-form-checkbox {
@@ -178,15 +182,16 @@
     transition: 250ms ease-out;
     transition-property: border-color, background-color;
 }
+
 .checkbox:checked+.modal-form-policy .modal-form-checkbox {
-    
     background-color: #404bbf;
     border-color: #404bbf;
 }
-.checkbox:checked + .modal-form-policy > .modal-form-checkbox .modal-form-checkbox-icon {
-    opacity: 1;
 
+.checkbox:checked+.modal-form-policy>.modal-form-checkbox .modal-form-checkbox-icon {
+    opacity: 1;
 }
+
 .modal-form-checkbox-icon {
     color: #f4f4fd;
     opacity: 0;
@@ -214,10 +219,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    cursor: pointer;
+
     transition: 250ms ease-out;
     transition-property: background-color;
 }
-.modal-form-btn:hover ,
-.modal-form-btn:focus{
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
     background-color: #404bbf;
 }
